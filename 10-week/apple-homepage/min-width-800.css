@@ -1,0 +1,33 @@
+.menu {
+    display: none;
+}
+
+.nav-links {
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+.item {
+    width: 50%;
+}
+
+
+.banner {
+    height: 680px;
+}
+
+.mag-search-icon {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+}
+

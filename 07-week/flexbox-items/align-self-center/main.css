@@ -1,0 +1,21 @@
+.container {
+    width: auto;
+    height: 800px;
+    border: 5px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    color: orange;
+    flex-grow: 1;
+}
+
+#diff {
+    align-self: center;
+}

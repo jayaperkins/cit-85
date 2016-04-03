@@ -1,0 +1,26 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    background: #999999;
+}
+
+header, footer {
+    min-height: 100px;
+    background-color: orange;
+}
+
+#main {
+    min-height: 550px;
+}
+
+article {
+    background-color: #dddd88;
+}
+
+nav {
+    background-color: #ccccff;
+}
+
+aside {
+    background-color: #ccccff;
+}

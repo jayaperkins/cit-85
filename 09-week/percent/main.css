@@ -1,0 +1,29 @@
+.box-1 {
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.para {
+    font-size: 62.5%;
+}
+
+.box-2 {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: darkorange;
+}
+
+.inner-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 20%; /* this should render as a margin that is 20% the width of the parent */
+}
+

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: darkgreen;
+    text-align: center;
+}

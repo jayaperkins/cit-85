@@ -1,0 +1,48 @@
+body {
+    background-color: blue;
+}
+
+#wrap {
+    display: block;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: greenyellow;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+}
+
+header img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin: 30px auto;
+    border-radius: 100%;
+    border: 20px ridge gold;
+}
+
+p {
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: gray;
+}
+
+h4 {
+    color: green;
+}

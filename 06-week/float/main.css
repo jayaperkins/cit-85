@@ -1,0 +1,38 @@
+.float-left {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.overflow {
+    border: solid darkorange 2px;
+    overflow: auto;
+}
+
+.img-float-right {
+     width: 200px;
+     height: 200px;
+     float: right;
+     border: solid darkorange 2px;
+    margin: 10px;
+ }
+
+p {
+    margin: 10px;
+    border: solid darkorange 2px;
+    text-align: center;
+}
+
+.img-float-left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: solid darkorange 2px;
+    margin: 10px;
+}
+
+.clear-left {
+    clear: left;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.elm-1, .elm-2, .elm-3, .elm-4 {
+    width: 100%;
+    height: 200px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.elm-1 {
+    background-color: blue;
+}
+
+.elm-2 {
+    background-color: red;
+}
+
+.elm-3 {
+    background-color: green;
+}
+
+.elm-4 {
+    background-color: orange;
+}

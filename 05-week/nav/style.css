@@ -1,0 +1,22 @@
+li {
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 25%;
+}
+
+a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: indigo;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Superclarendon, sans-serif;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: violet;
+}

@@ -1,0 +1,8 @@
+#svg-instagram {
+    fill: red;
+    stroke: blue;
+}
+
+#svg-instagram:hover {
+    fill: blue;
+}

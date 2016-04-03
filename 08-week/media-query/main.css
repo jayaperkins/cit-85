@@ -1,0 +1,28 @@
+img {
+    width: 500px;
+    height: 400px;
+}
+
+@media (min-width: 900px) {
+    img {
+        border: solid 10px red;
+    }
+}
+
+@media (max-width: 899px) {
+    img {
+        border: solid 10px green;
+    }
+}
+
+@media (max-width: 599px) {
+    img {
+        border: solid 10px blue;
+    }
+}
+
+@media print {
+    img {
+        border: dashed 10px black;
+    }
+}

@@ -1,0 +1,17 @@
+.parent {
+    width: 50%;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}

@@ -1,0 +1,33 @@
+html {
+    border: 1px dashed black;
+}
+
+body {
+    border: 1px dashed black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div {
+    border: 1px dashed black;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: indigo;
+}

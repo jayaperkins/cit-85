@@ -1,0 +1,16 @@
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+    margin: 10px;
+    border-radius: 25%;
+}
+
+.main {
+    width: 50%;
+    height: 2000px;
+    background-color: chocolate;
+    margin: 75px;
+    border-radius: 5%;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 600px) {
+    .c1 {
+        width: 50%;
+        order: 2;
+    }
+
+    .c2 {
+        width: 50%;
+        order: 1;
+    }
+
+    .c3 {
+        width: 100%;
+        order: 3;
+    }
+}
+
+
+@media (min-width: 800px) {
+
+    .c1 {
+        width: 100%;
+    }
+
+    .c2 {
+        width: 100%;
+    }
+
+    .c3 {
+        width: 100%;
+    }
+}

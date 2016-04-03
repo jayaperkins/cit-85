@@ -1,0 +1,9 @@
+body {
+    background-color: aliceblue;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
