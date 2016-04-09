@@ -1,0 +1,28 @@
+nav {
+    height: 4rem;
+}
+
+h1 {
+    width: 40%
+}
+
+ul {
+    width: 60%;
+}
+
+main {
+    flex-wrap: nowrap;
+}
+
+.slogan {
+    width: 60%;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+.donate-button {
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
