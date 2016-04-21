@@ -1,0 +1,39 @@
+.Icon {
+    /* Allows sizing by changing the icon’s font-size */
+    width: 1em; height: 1em;
+    /* Nice visual alignment for icons alongside text */
+    vertical-align: -0.15em;
+    /* Default path fill = value of the color property */
+    fill: currentColor;
+    /* Paths and strokes that overflow the viewBox can show in IE.
+       If you use normalize.css, it already sets this. */
+    overflow: hidden;
+}
+
+.MyComponent-button .Icon {
+    /* Change the width and height */
+    font-size: 40px;
+    /* Change the fill color */
+    color: purple;
+    /* Change the vertical-align if you need more precision
+       (sometimes needed for pixel-perfect rendering) */
+    vertical-align: top;
+}
+
+.Icon--goldstar {
+    fill: gold;
+    stroke: coral;
+    stroke-width: 5%;
+    stroke-linejoin: round;
+}
+
+.Icon--twoColors {
+    fill: rebeccapurple;
+    color: mediumturquoise;
+}
+
+.Icon--strokespace {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 5%;
+}

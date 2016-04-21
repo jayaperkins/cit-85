@@ -1,0 +1,33 @@
+<!--
+
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="cross" viewBox="0 0 20 20">
+        <path d="M17.1 5.2l-2.6-2.6-4.6 4.7-4.7-4.7-2.5 2.6 4.7 4.7-4.7 4.7 2.5 2.5 4.7-4.7 4.6 4.7 2.6-2.5-4.7-4.7"/>
+    </symbol>
+</svg>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+<path d="M7.5,0.5c3.9,0,7,3.1,7,7c0,3.9-3.1,7-7,7c-3.9,0-7-3.1-7-7l0,0C0.5,3.6,3.6,0.5,7.5,0.5 C7.5,0.5,7.5,0.5,7.5,0.5L7.5,0.5L7.5,0.5z M6.1,4.7v5.6l4.2-2.8L6.1,4.7z"/>
+</svg>
+
+
+Just because something is SVG, it doesn’t mean it should go inside your SVG sprite. For instance:
+
+Illustrations that you don’t need to style: consider using the <img> element.
+
+Illustrations that you want to animate: consider inlining the whole <svg> in your page, so you can select and style specific groups or paths or shapes, animate some parts, etc.
+As a rule of thumb, if it’s a big illustration that you need to show at 100px by 100px or much bigger, or if it contains dozens of elements, it might not be an “icon”.
+
+-->
+
+
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="cross" viewBox="0 0 20 20">
+        <path d="M17.1 5.2l-2.6-2.6-4.6 4.7-4.7-4.7-2.5 2.6 4.7 4.7-4.7 4.7 2.5 2.5 4.7-4.7 4.6 4.7 2.6-2.5-4.7-4.7"/>
+    </symbol>
+    <symbol id="play" viewBox="0 0 15 15">
+        <path d="M7.5,0.5c3.9,0,7,3.1,7,7c0,3.9-3.1,7-7,7c-3.9,0-7-3.1-7-7l0,0C0.5,3.6,3.6,0.5,7.5,0.5 C7.5,0.5,7.5,0.5,7.5,0.5L7.5,0.5L7.5,0.5z M6.1,4.7v5.6l4.2-2.8L6.1,4.7z"/>
+    </symbol>
+</svg>

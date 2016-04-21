@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprite Inclusion</title>
+    <style>.Icon{width:1em;height:1em}</style>
+</head>
+<body>
+    <svg aria-hidden="true" style="display:none">
+        <symbol id="icon-play">…</symbol>
+        <symbol id="icon-cross">…</symbol>
+        <symbol id="icon-search">…</symbol>
+    </svg>
+
+    <!-- A visible icon: -->
+    <button aria-label="Start playback">
+        <svg aria-hidden="true"><use xlink:href="#icon-play"/></svg>
+    </button>
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="/path/to/icons.svg#arrow"></use>
+    </svg>
+
+    <symbol id="check" viewBox="0 0 20 20">
+        <!-- Will inherit the value of the fill CSS property -->
+        <path d="…" />
+        <!-- Will inherit the value of the color CSS property -->
+        <path fill="currentColor" d="…" />
+    </symbol>
+
+</body>
+</html>
+
+<!-- I like mixing both methods, building two sprites:
+
+A small one with essential icons (e.g. main icons used in the page header), to be inlined on each page. Target size: 5KB or less.
+A bigger one with all the project’s icons, kept as an external file. Target size: 50KB or less.
+On bigger projects, we might add more external sprites when some icons can be grouped together and are only used in one part of the site or for a specific feature.
+
+All things considered, I still recommend using percentage values for stroke-width. If you stick to square or sharish icon, you can use percent values with the understanding that they mean, roughly, “percentage of the width of the icon”.
+
+-->
