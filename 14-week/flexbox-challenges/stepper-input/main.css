@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.button {
+    width: 15rem;
+    height: 15rem;
+    background-color: darkcyan;
+    font-size: 8rem;
+    font-family: 'Over the Rainbow', cursive;
+}
+
+.input {
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    font-size: 8rem;
+    background-color: bisque;
+    font-family: 'Over the Rainbow', cursive;
+}
+
+

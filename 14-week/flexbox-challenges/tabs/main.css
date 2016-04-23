@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.2rem solid grey;
+    width: 50%;
+
+}
+
+button {
+    flex-grow: 1;
+    height: 4rem;
+    background-color: white;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3rem;
+    border-bottom: 0.2rem solid white;
+}
+
+button:hover {
+    border-bottom-color: darkred;
+}
